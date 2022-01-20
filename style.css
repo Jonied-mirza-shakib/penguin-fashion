@@ -1,0 +1,118 @@
+nav{
+    background-color: #e3f2fd;
+}
+nav .navbar-brand img{
+    width: 250px;
+}
+.penguin-full-section{
+    background-color: antiquewhite;
+}
+.penguin-full-section .penguin-section .blog-section h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 gray;
+}
+.jacket-full-section{
+    padding-top: 30px;
+}
+.jacket-full-section .jacket-section .card .imag-section{
+    background-color:darkgrey;
+    margin: 10px;
+    border-radius: 20px;
+}
+.jacket-full-section .jacket-section .card .imag-section img{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.card-body{
+    line-height: 1.6;
+}
+.buy-now-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy-now-section button{
+    background-color:darkolivegreen;
+}
+.last-full-section{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.last-full-section .row-one{
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+    border-radius: 10px;
+}
+.last-full-section .row-one .images-one{
+    width: 100%;
+}
+.last-images{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.last-images img{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px){
+    nav .navbar-brand img{
+        width: 120px;
+    }
+    .penguin-full-section img{
+        width: 100%;
+    }
+    .jacket-full-section .card{
+        margin-bottom: 10px;
+    }
+    .last-images{
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .penguin-full-section .penguin-section .blog-section h1{
+        font-size: 30px;
+    }
+    .jacket-full-section .card{
+        margin-bottom: 10px;
+    }
+    .last-full-section .row-one .images-one{
+        width: 50%;
+    }
+    .last-images{
+        padding-top: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media screen and (max-width: 992px){
+    .jacket-full-section .card{
+        margin-bottom: 10px;
+    }
+    .last-full-section .row-one .images-one{
+        width: 50%;
+    }
+    .last-images{
+        padding-top: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
